@@ -1,0 +1,904 @@
+{
+  "id": "tgm765",
+  "repo": "tgm765-classroom",
+  "brand": "信捷 XINJE",
+  "title": "信捷 TGM765 触摸屏硬件认识",
+  "modelLabel": "TGM765S-ET / TGM765L-ET",
+  "sourceKind": "teaching",
+  "sourceLabel": "依据官方资料制作的教学模型",
+  "description": "双变体 7 英寸触摸屏的显示触控、供电、USB、串口、以太网、拨码与安装硬件认识；依据官方尺寸及外观图复建。",
+  "sources": [
+    {
+      "title": "TGM765S-MT/ET 安装使用手册 S241054 1.1",
+      "url": "https://cdn.xinje.com/TGM765S-MTET（S241054 1.1）-2019.7.8.pdf"
+    },
+    {
+      "title": "TGM765L-MT/ET 安装使用手册 S241059 1.0",
+      "url": "https://cdn.xinje.com/TGM765L-MTET（S241059 1.0）-2021.3.8.pdf"
+    },
+    {
+      "title": "TP/TH/TG/TE/RT/MTG/CCSG 硬件篇 HC01 20260928 1.3",
+      "url": "https://cdn.xinje.com/TP TH TG TE RT MTG CCSG系列人机界面用户手册【硬件篇】（HC 01 20260928 1.3）.pdf"
+    },
+    {
+      "title": "TGM765L 高亮触摸屏产品彩页",
+      "url": "https://cdn.xinje.com/TGM765L高亮触摸屏产品彩页.pdf"
+    },
+    {
+      "title": "TG765S、TGM765L、CCSG-765 原厂共用命名二维 CAD",
+      "url": "https://cdn.xinje.com/TG765S、TGM765L、CCSG-765.dwg"
+    },
+    {
+      "title": "TG765S-ET 原厂 STEP，仅作相邻型号对比，不是 TGM765S/TGM765L 模型",
+      "url": "https://cdn.xinje.com/2d0ba7bcf14941e4b6f1e163cd6ea3f7.stp"
+    }
+  ],
+  "variants": [
+    {
+      "id": "tgm765s-et",
+      "label": "TGM765S-ET",
+      "dimensions": [
+        207,
+        148,
+        38.5
+      ],
+      "model": {
+        "full": "tgm765s-et-full.glb",
+        "compressed": "tgm765s-et-b2a4f0631b66.glb.gz",
+        "fallback": "tgm765s-et-b2a4f0631b66.glb",
+        "compressedBytes": 628553,
+        "decodedBytes": 1522104,
+        "triangles": 49368,
+        "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4",
+        "gzipSha256": "8c2618d623d8d8733d6b895d778d2697cc7f778c008bb86c9698e34fe44561d2"
+      },
+      "topics": [
+        {
+          "id": "overview",
+          "title": "整机认识",
+          "eyebrow": "7 英寸 · ET 以太网型",
+          "summary": "TGM765S-ET 是信捷 7 英寸人机界面，用于显示设备信息并接收触摸操作；本页只学习外部硬件。",
+          "purpose": "把画面操作端、供电端和通信端对应到实物。",
+          "connection": "电源接直流 24V；通信口按 PLC 或设备支持的协议和电缆选择。",
+          "example": "沿“正面触控区 → 背面电源 → 通信接口 → 安装结构”的顺序观察。",
+          "notes": [
+            "外形 207 × 148 × 38.5 mm，开孔 192 × 138.5 mm。",
+            "本变体为 TGM765S-ET；ET 配有 RJ45，以太网接口不能套用到 MT 版本。",
+            "模型依据官方尺寸和外观图复建；小倒角、孔形、触点细节和材料质感为教学近似，不是原厂制造模型。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TP TH TG TE RT MTG CCSG系列人机界面用户手册【硬件篇】（HC 01 20260928 1.3）.pdf",
+          "sourceTitle": "原厂硬件手册 v1.3 · 3.2.4 / 3.2.10",
+          "view": "front"
+        },
+        {
+          "id": "display",
+          "title": "显示与触摸区",
+          "eyebrow": "TFT · 四线电阻触摸",
+          "summary": "7 英寸 TFT 液晶，800 × 480 分辨率，1677 万色；TGM765S-ET 标称亮度 200 cd/m²。",
+          "purpose": "屏幕负责显示，前方四线电阻触摸层负责接收按压位置。",
+          "connection": "触控区是人机操作面；它不是外接 PLC 的接线端子。",
+          "example": "在设备前方辨认有效显示区及其外围面膜。",
+          "notes": [
+            "官方有效显示区域为 154.08 × 85.92 mm。",
+            "页面显示的是静态硬件外观，不运行实际触摸屏工程。",
+            "前面板 IP65 不等于整机背面也具备相同防护。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TP TH TG TE RT MTG CCSG系列人机界面用户手册【硬件篇】（HC 01 20260928 1.3）.pdf",
+          "sourceTitle": "原厂硬件手册 v1.3 · 显示与触摸规格",
+          "view": "front",
+          "anchor": {
+            "position": [
+              0,
+              6,
+              0.1
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "size": [
+              154.08,
+              85.92,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "variant",
+          "title": "S / L 与 ET 标识",
+          "eyebrow": "型号必须读完整",
+          "summary": "S 型亮度 200 cd/m²；L 为 530 cd/m² 高亮型。当前观察的是 TGM765S-ET。",
+          "purpose": "先识别 S/L，再看 MT/ET 后缀，防止按相近名称判断接口。",
+          "connection": "本页两个 ET 变体都含 RJ45；MT 型不配以太网接口。",
+          "example": "切换 S-ET / L-ET 后核对型号、亮度及前面板示例。",
+          "notes": [
+            "两者的外形及开孔尺寸相同，不能只凭尺寸认型号。",
+            "S 外观采用 2019 年独立手册示例，L 采用 2021 年独立手册和彩页示例。",
+            "面膜、Logo 和指示灯外观可能随批次变化；完整型号以实物铭牌为准。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TP TH TG TE RT MTG CCSG系列人机界面用户手册【硬件篇】（HC 01 20260928 1.3）.pdf",
+          "sourceTitle": "原厂硬件手册 v1.3 · S/L 规格表",
+          "view": "front",
+          "anchor": {
+            "position": [
+              0,
+              -56.5,
+              0.1
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "size": [
+              54,
+              13,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "power",
+          "title": "电源与 FG 接地",
+          "eyebrow": "24V · 0V · FG",
+          "summary": "三位端子用于直流供电及 FG 接地；额定 DC24V，允许范围 DC22–26V，消耗电流 200mA。",
+          "purpose": "为整机供电，并按安装要求连接 FG 功能接地。",
+          "connection": "24V 接直流电源正极，0V 接电源负极；FG 接设备接地系统，按原厂要求施工。",
+          "example": "先读端子标记，再辨认正极、负极与 FG。",
+          "notes": [
+            "必须断电后进行接线、检查或端子拆装。",
+            "FG 和 0V 的作用不同，不能仅凭端子相邻就任意短接。",
+            "拆离动作仅展示端子连接位置，不表示带电可拔插。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765S-MTET（S241054 1.1）-2019.7.8.pdf",
+          "sourceTitle": "TGM765S-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              -64,
+              -9,
+              -38.7
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              16,
+              26,
+              2
+            ],
+            "occlusionTolerance": 2,
+            "node": "power_terminal"
+          }
+        },
+        {
+          "id": "ethernet",
+          "title": "以太网 RJ45",
+          "eyebrow": "ET 型号专有接口",
+          "summary": "背部 RJ45 接口用于以太网通信；ET 型支持与相应网络设备通信。",
+          "purpose": "为触摸屏连接 PLC、交换机或配置计算机提供网络硬件通道。",
+          "connection": "按目标 PLC、驱动和协议要求接入以太网；接口形状相同并不代表协议相同。",
+          "example": "辨认八个触点和卡扣位置，再沿网线找到对端设备。",
+          "notes": [
+            "不要把 RJ45 口当作电话口或直接接电源。",
+            "不能因为使用 RJ45 就将本型号描述成 PROFINET IO 设备。",
+            "连接关系和协议应按具体工程及原厂通信手册核对。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L高亮触摸屏产品彩页.pdf",
+          "sourceTitle": "TGM765L 原厂彩页 · 接口说明",
+          "view": "back",
+          "anchor": {
+            "position": [
+              34,
+              48,
+              -38.7
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              18,
+              19,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "usb-a",
+          "title": "USB-A 存储口",
+          "eyebrow": "U 盘 · 数据导入导出",
+          "summary": "USB-A 口连接 U 盘等便携存储设备，用于程序或数据的导入导出。",
+          "purpose": "提供存储设备接口，与连接计算机的 USB-B 口分工不同。",
+          "connection": "将兼容 U 盘插入 USB-A，按对应工程和 TouchWin 手册操作。",
+          "example": "先辨认长方形 USB-A 口，再对照旁边近方形 USB-B 口。",
+          "notes": [
+            "支持 U 盘下载程序、CSV 数据导入导出等功能，实际操作按软件版本和工程支持范围。",
+            "USB-A 不是直流 24V 电源端子。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765S-MTET（S241054 1.1）-2019.7.8.pdf",
+          "sourceTitle": "TGM765S-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              69,
+              48,
+              -38.7
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              8,
+              17,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "usb-b",
+          "title": "USB-B 下载口",
+          "eyebrow": "计算机 USB 数据线",
+          "summary": "USB-B 是与计算机连接的下载接口，原厂手册用于画面数据下载。",
+          "purpose": "建立计算机与触摸屏之间的 USB 下载通道。",
+          "connection": "使用对应 USB 数据线连接计算机与 USB-B；触摸屏仍由独立直流 24V 供电。",
+          "example": "辨认带上部斜角的近方形插座，避免与旁边 USB-A 混淆。",
+          "notes": [
+            "不能用 USB-B 替代 24V 电源接线。",
+            "需要强制下载时，应结合原厂拨码说明和软件流程。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765S-MTET（S241054 1.1）-2019.7.8.pdf",
+          "sourceTitle": "TGM765S-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              54,
+              48,
+              -38.7
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              13,
+              14,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "com1",
+          "title": "COM1 / Download 串口",
+          "eyebrow": "RS232 · RS485",
+          "summary": "底部凹槽中的 COM1 标为 Download，支持 RS232 / RS485，也具有设备通信功能。",
+          "purpose": "为下载或与 PLC、变频器等设备通信提供独立串行接口。",
+          "connection": "按目标设备的原厂线序制作或选择电缆；不能将同号针脚直接等号相连。",
+          "example": "从底部观察九针接头，再对照外壳上的 Download 标记。",
+          "notes": [
+            "COM1：2 RXD、3 TXD、4 A、5 GND、7 B；1/6/8/9 为 NC。",
+            "RS232 与 RS485 是不同的电气接口，选线和软件设置必须对应。",
+            "针号应按原厂插头视图识别；本模型接点只作外形教学。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765S-MTET（S241054 1.1）-2019.7.8.pdf",
+          "sourceTitle": "TGM765S-ET 原厂安装使用手册",
+          "view": "bottom",
+          "anchor": {
+            "position": [
+              43,
+              -50.4,
+              -24
+            ],
+            "normal": [
+              0,
+              -1,
+              0
+            ],
+            "size": [
+              32,
+              2,
+              14
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "com2",
+          "title": "COM2 / PLC 串口",
+          "eyebrow": "RS232 · RS485 · RS422",
+          "summary": "底部另一个九针接口标为 PLC，即 COM2，支持 RS232 / RS485 / RS422。",
+          "purpose": "连接具有匹配串行接口和通信协议的控制器或现场设备。",
+          "connection": "使用目标 PLC 或设备对应的通信线，核对针脚、接口制式和通信参数。",
+          "example": "比较 COM1 与 COM2 的外形相似性，再检查可用信号的差别。",
+          "notes": [
+            "COM2：1 TD+、2 RXD、3 TXD、4 A、5 GND、6 TD−、7 B、8 RD−、9 RD+。",
+            "外形相同不代表针脚用途相同；COM1 与 COM2 的接线不能直接互换。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765S-MTET（S241054 1.1）-2019.7.8.pdf",
+          "sourceTitle": "TGM765S-ET 原厂安装使用手册",
+          "view": "bottom",
+          "anchor": {
+            "position": [
+              -40,
+              -50.4,
+              -24
+            ],
+            "normal": [
+              0,
+              -1,
+              0
+            ],
+            "size": [
+              32,
+              2,
+              14
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "dip",
+          "title": "四位拨码开关",
+          "eyebrow": "下载维护 · 系统菜单",
+          "summary": "背部四位拨码用于指定维护模式；不是通信接线端子。",
+          "purpose": "通过原厂规定的开关组合进入强制下载、系统设置或内部测试模式。",
+          "connection": "先按原厂手册核对功能及软件版本，再在停机维护条件下操作。",
+          "example": "读清 1～4 编号和 ON 方向，按手册表格识别组合。",
+          "notes": [
+            "仅 1 为 ON：未定义。",
+            "仅 2 为 ON：USB-B 口强制下载。",
+            "仅 3 为 ON：系统菜单，可设置系统时间、触摸校准。",
+            "仅 4 为 ON：内部检测模式，未对用户开放。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765S-MTET（S241054 1.1）-2019.7.8.pdf",
+          "sourceTitle": "TGM765S-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              8.5,
+              48,
+              -38.8
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              15,
+              17,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "mounting",
+          "title": "安装、散热与防护",
+          "eyebrow": "嵌入面板 · 固定支架",
+          "summary": "将后壳推入面板开孔，再用固定支架和螺栓压紧安装面板；保留后部散热通道。",
+          "purpose": "让触摸屏固定在设备面板上，并避免外壳、散热及电缆受力不当。",
+          "connection": "参考开孔 192 × 138.5 mm，独立手册标注 ±0.5 mm；实际加工需结合实物复核。",
+          "example": "从侧面观察前面板压边、后壳和安装卡位的关系。",
+          "notes": [
+            "拧紧力度适中，固定螺栓与安装面板垂直。",
+            "前面板 IP65，背部接口与开孔需要适当的电控柜环境。",
+            "运行温度 0～50℃，避免腐蚀性气体、凝露和导电液体。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765S-MTET（S241054 1.1）-2019.7.8.pdf",
+          "sourceTitle": "TGM765S-ET 原厂安装使用手册",
+          "view": "left",
+          "anchor": {
+            "position": [
+              -95,
+              48,
+              -17
+            ],
+            "normal": [
+              -1,
+              0,
+              0
+            ],
+            "size": [
+              2,
+              15,
+              18
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "nameplate",
+          "title": "铭牌与型号核对",
+          "eyebrow": "型号 · 电源 · 序列字段",
+          "summary": "背面铭牌用于识别完整型号及额定电源。教学模型保留型号与供电信息，序列号留空。",
+          "purpose": "把教材中选定的变体和现场设备对应起来。",
+          "connection": "查找 Model / Power / S/N 等字段，再核对接线和资料是否对应。",
+          "example": "先读 TGM765S-ET 或 TGM765L-ET，再确认 DC24V。",
+          "notes": [
+            "教学铭牌的字体和排版为复建，不能用于产品真伪或批次判定。",
+            "现场设备铭牌与对应版本原厂手册优先。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765S-MTET（S241054 1.1）-2019.7.8.pdf",
+          "sourceTitle": "TGM765S-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              10,
+              -9,
+              -36.6
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              52,
+              26,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        }
+      ],
+      "motions": [
+        {
+          "id": "power-terminal",
+          "label": "电源端子",
+          "node": "power_terminal",
+          "translation": [
+            0,
+            0,
+            -18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgm765l-et",
+      "label": "TGM765L-ET",
+      "dimensions": [
+        207,
+        148,
+        38.5
+      ],
+      "model": {
+        "full": "tgm765l-et-full.glb",
+        "compressed": "tgm765l-et-a4132d0aaa83.glb.gz",
+        "fallback": "tgm765l-et-a4132d0aaa83.glb",
+        "compressedBytes": 630574,
+        "decodedBytes": 1525188,
+        "triangles": 49328,
+        "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d",
+        "gzipSha256": "b92c748105974a276e22f721b0537c8d797f4e3b92e33705d4a1945c54897343"
+      },
+      "topics": [
+        {
+          "id": "overview",
+          "title": "整机认识",
+          "eyebrow": "7 英寸 · ET 以太网型",
+          "summary": "TGM765L-ET 是信捷 7 英寸人机界面，用于显示设备信息并接收触摸操作；本页只学习外部硬件。",
+          "purpose": "把画面操作端、供电端和通信端对应到实物。",
+          "connection": "电源接直流 24V；通信口按 PLC 或设备支持的协议和电缆选择。",
+          "example": "沿“正面触控区 → 背面电源 → 通信接口 → 安装结构”的顺序观察。",
+          "notes": [
+            "外形 207 × 148 × 38.5 mm，开孔 192 × 138.5 mm。",
+            "本变体为 TGM765L-ET；ET 配有 RJ45，以太网接口不能套用到 MT 版本。",
+            "模型依据官方尺寸和外观图复建；小倒角、孔形、触点细节和材料质感为教学近似，不是原厂制造模型。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TP TH TG TE RT MTG CCSG系列人机界面用户手册【硬件篇】（HC 01 20260928 1.3）.pdf",
+          "sourceTitle": "原厂硬件手册 v1.3 · 3.2.4 / 3.2.10",
+          "view": "front"
+        },
+        {
+          "id": "display",
+          "title": "显示与触摸区",
+          "eyebrow": "TFT · 四线电阻触摸",
+          "summary": "7 英寸 TFT 液晶，800 × 480 分辨率，1677 万色；TGM765L-ET 标称亮度 530 cd/m²。",
+          "purpose": "屏幕负责显示，前方四线电阻触摸层负责接收按压位置。",
+          "connection": "触控区是人机操作面；它不是外接 PLC 的接线端子。",
+          "example": "在设备前方辨认有效显示区及其外围面膜。",
+          "notes": [
+            "官方有效显示区域为 154.08 × 85.92 mm。",
+            "页面显示的是静态硬件外观，不运行实际触摸屏工程。",
+            "前面板 IP65 不等于整机背面也具备相同防护。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TP TH TG TE RT MTG CCSG系列人机界面用户手册【硬件篇】（HC 01 20260928 1.3）.pdf",
+          "sourceTitle": "原厂硬件手册 v1.3 · 显示与触摸规格",
+          "view": "front",
+          "anchor": {
+            "position": [
+              0,
+              6,
+              0.1
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "size": [
+              154.08,
+              85.92,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "variant",
+          "title": "S / L 与 ET 标识",
+          "eyebrow": "型号必须读完整",
+          "summary": "S 型亮度 200 cd/m²；L 为 530 cd/m² 高亮型。当前观察的是 TGM765L-ET。",
+          "purpose": "先识别 S/L，再看 MT/ET 后缀，防止按相近名称判断接口。",
+          "connection": "本页两个 ET 变体都含 RJ45；MT 型不配以太网接口。",
+          "example": "切换 S-ET / L-ET 后核对型号、亮度及前面板示例。",
+          "notes": [
+            "两者的外形及开孔尺寸相同，不能只凭尺寸认型号。",
+            "S 外观采用 2019 年独立手册示例，L 采用 2021 年独立手册和彩页示例。",
+            "面膜、Logo 和指示灯外观可能随批次变化；完整型号以实物铭牌为准。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TP TH TG TE RT MTG CCSG系列人机界面用户手册【硬件篇】（HC 01 20260928 1.3）.pdf",
+          "sourceTitle": "原厂硬件手册 v1.3 · S/L 规格表",
+          "view": "front",
+          "anchor": {
+            "position": [
+              0,
+              -56.5,
+              0.1
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "size": [
+              54,
+              13,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "power",
+          "title": "电源与 FG 接地",
+          "eyebrow": "24V · 0V · FG",
+          "summary": "三位端子用于直流供电及 FG 接地；额定 DC24V，允许范围 DC22–26V，消耗电流 200mA。",
+          "purpose": "为整机供电，并按安装要求连接 FG 功能接地。",
+          "connection": "24V 接直流电源正极，0V 接电源负极；FG 接设备接地系统，按原厂要求施工。",
+          "example": "先读端子标记，再辨认正极、负极与 FG。",
+          "notes": [
+            "必须断电后进行接线、检查或端子拆装。",
+            "FG 和 0V 的作用不同，不能仅凭端子相邻就任意短接。",
+            "拆离动作仅展示端子连接位置，不表示带电可拔插。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L-MTET（S241059 1.0）-2021.3.8.pdf",
+          "sourceTitle": "TGM765L-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              -64,
+              -9,
+              -38.7
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              16,
+              26,
+              2
+            ],
+            "occlusionTolerance": 2,
+            "node": "power_terminal"
+          }
+        },
+        {
+          "id": "ethernet",
+          "title": "以太网 RJ45",
+          "eyebrow": "ET 型号专有接口",
+          "summary": "背部 RJ45 接口用于以太网通信；ET 型支持与相应网络设备通信。",
+          "purpose": "为触摸屏连接 PLC、交换机或配置计算机提供网络硬件通道。",
+          "connection": "按目标 PLC、驱动和协议要求接入以太网；接口形状相同并不代表协议相同。",
+          "example": "辨认八个触点和卡扣位置，再沿网线找到对端设备。",
+          "notes": [
+            "不要把 RJ45 口当作电话口或直接接电源。",
+            "不能因为使用 RJ45 就将本型号描述成 PROFINET IO 设备。",
+            "连接关系和协议应按具体工程及原厂通信手册核对。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L高亮触摸屏产品彩页.pdf",
+          "sourceTitle": "TGM765L 原厂彩页 · 接口说明",
+          "view": "back",
+          "anchor": {
+            "position": [
+              34,
+              48,
+              -38.7
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              18,
+              19,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "usb-a",
+          "title": "USB-A 存储口",
+          "eyebrow": "U 盘 · 数据导入导出",
+          "summary": "USB-A 口连接 U 盘等便携存储设备，用于程序或数据的导入导出。",
+          "purpose": "提供存储设备接口，与连接计算机的 USB-B 口分工不同。",
+          "connection": "将兼容 U 盘插入 USB-A，按对应工程和 TouchWin 手册操作。",
+          "example": "先辨认长方形 USB-A 口，再对照旁边近方形 USB-B 口。",
+          "notes": [
+            "支持 U 盘下载程序、CSV 数据导入导出等功能，实际操作按软件版本和工程支持范围。",
+            "USB-A 不是直流 24V 电源端子。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L-MTET（S241059 1.0）-2021.3.8.pdf",
+          "sourceTitle": "TGM765L-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              69,
+              48,
+              -38.7
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              8,
+              17,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "usb-b",
+          "title": "USB-B 下载口",
+          "eyebrow": "计算机 USB 数据线",
+          "summary": "USB-B 是与计算机连接的下载接口，原厂手册用于画面数据下载。",
+          "purpose": "建立计算机与触摸屏之间的 USB 下载通道。",
+          "connection": "使用对应 USB 数据线连接计算机与 USB-B；触摸屏仍由独立直流 24V 供电。",
+          "example": "辨认带上部斜角的近方形插座，避免与旁边 USB-A 混淆。",
+          "notes": [
+            "不能用 USB-B 替代 24V 电源接线。",
+            "需要强制下载时，应结合原厂拨码说明和软件流程。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L-MTET（S241059 1.0）-2021.3.8.pdf",
+          "sourceTitle": "TGM765L-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              54,
+              48,
+              -38.7
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              13,
+              14,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "com1",
+          "title": "COM1 / Download 串口",
+          "eyebrow": "RS232 · RS485",
+          "summary": "底部凹槽中的 COM1 标为 Download，支持 RS232 / RS485，也具有设备通信功能。",
+          "purpose": "为下载或与 PLC、变频器等设备通信提供独立串行接口。",
+          "connection": "按目标设备的原厂线序制作或选择电缆；不能将同号针脚直接等号相连。",
+          "example": "从底部观察九针接头，再对照外壳上的 Download 标记。",
+          "notes": [
+            "COM1：2 RXD、3 TXD、4 A、5 GND、7 B；1/6/8/9 为 NC。",
+            "RS232 与 RS485 是不同的电气接口，选线和软件设置必须对应。",
+            "针号应按原厂插头视图识别；本模型接点只作外形教学。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L-MTET（S241059 1.0）-2021.3.8.pdf",
+          "sourceTitle": "TGM765L-ET 原厂安装使用手册",
+          "view": "bottom",
+          "anchor": {
+            "position": [
+              43,
+              -50.4,
+              -24
+            ],
+            "normal": [
+              0,
+              -1,
+              0
+            ],
+            "size": [
+              32,
+              2,
+              14
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "com2",
+          "title": "COM2 / PLC 串口",
+          "eyebrow": "RS232 · RS485 · RS422",
+          "summary": "底部另一个九针接口标为 PLC，即 COM2，支持 RS232 / RS485 / RS422。",
+          "purpose": "连接具有匹配串行接口和通信协议的控制器或现场设备。",
+          "connection": "使用目标 PLC 或设备对应的通信线，核对针脚、接口制式和通信参数。",
+          "example": "比较 COM1 与 COM2 的外形相似性，再检查可用信号的差别。",
+          "notes": [
+            "COM2：1 TD+、2 RXD、3 TXD、4 A、5 GND、6 TD−、7 B、8 RD−、9 RD+。",
+            "外形相同不代表针脚用途相同；COM1 与 COM2 的接线不能直接互换。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L-MTET（S241059 1.0）-2021.3.8.pdf",
+          "sourceTitle": "TGM765L-ET 原厂安装使用手册",
+          "view": "bottom",
+          "anchor": {
+            "position": [
+              -40,
+              -50.4,
+              -24
+            ],
+            "normal": [
+              0,
+              -1,
+              0
+            ],
+            "size": [
+              32,
+              2,
+              14
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "dip",
+          "title": "四位拨码开关",
+          "eyebrow": "下载维护 · 系统菜单",
+          "summary": "背部四位拨码用于指定维护模式；不是通信接线端子。",
+          "purpose": "通过原厂规定的开关组合进入强制下载、系统设置或内部测试模式。",
+          "connection": "先按原厂手册核对功能及软件版本，再在停机维护条件下操作。",
+          "example": "读清 1～4 编号和 ON 方向，按手册表格识别组合。",
+          "notes": [
+            "仅 1 为 ON：未定义。",
+            "仅 2 为 ON：USB-B 口强制下载。",
+            "仅 3 为 ON：系统菜单，可设置系统时间、触摸校准。",
+            "仅 4 为 ON：内部检测模式，未对用户开放。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L-MTET（S241059 1.0）-2021.3.8.pdf",
+          "sourceTitle": "TGM765L-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              8.5,
+              48,
+              -38.8
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              15,
+              17,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "mounting",
+          "title": "安装、散热与防护",
+          "eyebrow": "嵌入面板 · 固定支架",
+          "summary": "将后壳推入面板开孔，再用固定支架和螺栓压紧安装面板；保留后部散热通道。",
+          "purpose": "让触摸屏固定在设备面板上，并避免外壳、散热及电缆受力不当。",
+          "connection": "参考开孔 192 × 138.5 mm，独立手册标注 ±0.5 mm；实际加工需结合实物复核。",
+          "example": "从侧面观察前面板压边、后壳和安装卡位的关系。",
+          "notes": [
+            "拧紧力度适中，固定螺栓与安装面板垂直。",
+            "前面板 IP65，背部接口与开孔需要适当的电控柜环境。",
+            "运行温度 0～50℃，避免腐蚀性气体、凝露和导电液体。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L-MTET（S241059 1.0）-2021.3.8.pdf",
+          "sourceTitle": "TGM765L-ET 原厂安装使用手册",
+          "view": "left",
+          "anchor": {
+            "position": [
+              -95,
+              48,
+              -17
+            ],
+            "normal": [
+              -1,
+              0,
+              0
+            ],
+            "size": [
+              2,
+              15,
+              18
+            ],
+            "occlusionTolerance": 2
+          }
+        },
+        {
+          "id": "nameplate",
+          "title": "铭牌与型号核对",
+          "eyebrow": "型号 · 电源 · 序列字段",
+          "summary": "背面铭牌用于识别完整型号及额定电源。教学模型保留型号与供电信息，序列号留空。",
+          "purpose": "把教材中选定的变体和现场设备对应起来。",
+          "connection": "查找 Model / Power / S/N 等字段，再核对接线和资料是否对应。",
+          "example": "先读 TGM765S-ET 或 TGM765L-ET，再确认 DC24V。",
+          "notes": [
+            "教学铭牌的字体和排版为复建，不能用于产品真伪或批次判定。",
+            "现场设备铭牌与对应版本原厂手册优先。"
+          ],
+          "sourceUrl": "https://cdn.xinje.com/TGM765L-MTET（S241059 1.0）-2021.3.8.pdf",
+          "sourceTitle": "TGM765L-ET 原厂安装使用手册",
+          "view": "back",
+          "anchor": {
+            "position": [
+              10,
+              -9,
+              -36.6
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "size": [
+              52,
+              26,
+              2
+            ],
+            "occlusionTolerance": 2
+          }
+        }
+      ],
+      "motions": [
+        {
+          "id": "power-terminal",
+          "label": "电源端子",
+          "node": "power_terminal",
+          "translation": [
+            0,
+            0,
+            -18
+          ]
+        }
+      ]
+    }
+  ]
+}

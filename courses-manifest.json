@@ -1,0 +1,171 @@
+{
+  "device": "tgm765",
+  "repo": "tgm765-classroom",
+  "modelLabel": "TGM765S-ET / TGM765L-ET",
+  "hardwareOnly": true,
+  "sourceKind": "teaching",
+  "variants": [
+    {
+      "id": "tgm765s-et",
+      "label": "TGM765S-ET",
+      "model": {
+        "full": "tgm765s-et-full.glb",
+        "compressed": "tgm765s-et-b2a4f0631b66.glb.gz",
+        "fallback": "tgm765s-et-b2a4f0631b66.glb",
+        "compressedBytes": 628553,
+        "decodedBytes": 1522104,
+        "triangles": 49368,
+        "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4",
+        "gzipSha256": "8c2618d623d8d8733d6b895d778d2697cc7f778c008bb86c9698e34fe44561d2"
+      },
+      "topicCount": 12,
+      "motions": [
+        {
+          "id": "power-terminal",
+          "label": "电源端子",
+          "node": "power_terminal",
+          "translation": [
+            0,
+            0,
+            -18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tgm765l-et",
+      "label": "TGM765L-ET",
+      "model": {
+        "full": "tgm765l-et-full.glb",
+        "compressed": "tgm765l-et-a4132d0aaa83.glb.gz",
+        "fallback": "tgm765l-et-a4132d0aaa83.glb",
+        "compressedBytes": 630574,
+        "decodedBytes": 1525188,
+        "triangles": 49328,
+        "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d",
+        "gzipSha256": "b92c748105974a276e22f721b0537c8d797f4e3b92e33705d4a1945c54897343"
+      },
+      "topicCount": 12,
+      "motions": [
+        {
+          "id": "power-terminal",
+          "label": "电源端子",
+          "node": "power_terminal",
+          "translation": [
+            0,
+            0,
+            -18
+          ]
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "industrial-network",
+      "title": "工业网络与组态技术",
+      "url": "https://titleone01.github.io/tgm765-classroom/industrial-network/",
+      "offlineFile": "工业网络与组态技术_tgm765_硬件认识_离线.html",
+      "offline": {
+        "file": "工业网络与组态技术_tgm765_硬件认识_离线.html",
+        "bytes": 4875682,
+        "sha256": "258e3f945a80d90572305e3c3dc52586f9ae8bf81c57136a7510e652ff445dd9",
+        "embeddedModels": [
+          {
+            "id": "tgm765s-et",
+            "bytes": 1522104,
+            "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+          },
+          {
+            "id": "tgm765l-et",
+            "bytes": 1525188,
+            "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+          }
+        ]
+      },
+      "bundle": "app-c00812b02698.js",
+      "htmlSha256": "a8d9b45c676aecfecf68b6f1172576a2487379b92ad8c45fe7f503c0c0968f90",
+      "bundleSha256": "c00812b026981db1904952826b4f7de31069e66a97e3317ae111d17157b2aed4",
+      "models": [
+        {
+          "variant": "tgm765s-et",
+          "file": "tgm765s-et-b2a4f0631b66.glb.gz",
+          "bytes": 628553,
+          "sha256": "8c2618d623d8d8733d6b895d778d2697cc7f778c008bb86c9698e34fe44561d2"
+        },
+        {
+          "variant": "tgm765s-et",
+          "file": "tgm765s-et-b2a4f0631b66.glb",
+          "bytes": 1522104,
+          "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+        },
+        {
+          "variant": "tgm765l-et",
+          "file": "tgm765l-et-a4132d0aaa83.glb.gz",
+          "bytes": 630574,
+          "sha256": "b92c748105974a276e22f721b0537c8d797f4e3b92e33705d4a1945c54897343"
+        },
+        {
+          "variant": "tgm765l-et",
+          "file": "tgm765l-et-a4132d0aaa83.glb",
+          "bytes": 1525188,
+          "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+        }
+      ],
+      "embed": "<iframe src=\"https://titleone01.github.io/tgm765-classroom/industrial-network/\" title=\"工业网络与组态技术 · TGM765S-ET / TGM765L-ET硬件认识\" width=\"100%\" height=\"1900\" style=\"border:0\" loading=\"lazy\" allow=\"fullscreen\"></iframe>"
+    },
+    {
+      "id": "plc-application",
+      "title": "PLC应用技术",
+      "url": "https://titleone01.github.io/tgm765-classroom/plc-application/",
+      "offlineFile": "PLC应用技术_tgm765_硬件认识_离线.html",
+      "offline": {
+        "file": "PLC应用技术_tgm765_硬件认识_离线.html",
+        "bytes": 4875658,
+        "sha256": "6615719684e590b38965885c7a4655ce6cba69fcd534873e8e29aafac14a19d6",
+        "embeddedModels": [
+          {
+            "id": "tgm765s-et",
+            "bytes": 1522104,
+            "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+          },
+          {
+            "id": "tgm765l-et",
+            "bytes": 1525188,
+            "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+          }
+        ]
+      },
+      "bundle": "app-c00812b02698.js",
+      "htmlSha256": "aace822dccd100de4b567da01be94cecfc3132baf8b387d15f0ad7f924b24f3c",
+      "bundleSha256": "c00812b026981db1904952826b4f7de31069e66a97e3317ae111d17157b2aed4",
+      "models": [
+        {
+          "variant": "tgm765s-et",
+          "file": "tgm765s-et-b2a4f0631b66.glb.gz",
+          "bytes": 628553,
+          "sha256": "8c2618d623d8d8733d6b895d778d2697cc7f778c008bb86c9698e34fe44561d2"
+        },
+        {
+          "variant": "tgm765s-et",
+          "file": "tgm765s-et-b2a4f0631b66.glb",
+          "bytes": 1522104,
+          "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+        },
+        {
+          "variant": "tgm765l-et",
+          "file": "tgm765l-et-a4132d0aaa83.glb.gz",
+          "bytes": 630574,
+          "sha256": "b92c748105974a276e22f721b0537c8d797f4e3b92e33705d4a1945c54897343"
+        },
+        {
+          "variant": "tgm765l-et",
+          "file": "tgm765l-et-a4132d0aaa83.glb",
+          "bytes": 1525188,
+          "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+        }
+      ],
+      "embed": "<iframe src=\"https://titleone01.github.io/tgm765-classroom/plc-application/\" title=\"PLC应用技术 · TGM765S-ET / TGM765L-ET硬件认识\" width=\"100%\" height=\"1900\" style=\"border:0\" loading=\"lazy\" allow=\"fullscreen\"></iframe>"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "file": "PLC应用技术_tgm765_硬件认识_离线.html",
+  "bytes": 4875658,
+  "sha256": "6615719684e590b38965885c7a4655ce6cba69fcd534873e8e29aafac14a19d6",
+  "embeddedModels": [
+    {
+      "id": "tgm765s-et",
+      "bytes": 1522104,
+      "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+    },
+    {
+      "id": "tgm765l-et",
+      "bytes": 1525188,
+      "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+    }
+  ]
+}
