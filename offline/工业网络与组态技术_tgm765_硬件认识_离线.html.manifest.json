@@ -1,17 +1,17 @@
 {
   "file": "工业网络与组态技术_tgm765_硬件认识_离线.html",
-  "bytes": 4875682,
-  "sha256": "258e3f945a80d90572305e3c3dc52586f9ae8bf81c57136a7510e652ff445dd9",
+  "bytes": 4876694,
+  "sha256": "0a7fa9387a618cabf2871d164a473613084cfb6e2adafcb9a51e83070e1145c6",
   "embeddedModels": [
     {
       "id": "tgm765s-et",
-      "bytes": 1522104,
-      "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+      "bytes": 1522480,
+      "sha256": "676e439153250088195ca7c20371d8ba25b4a4103c5079de24a3736c3779a270"
     },
     {
       "id": "tgm765l-et",
-      "bytes": 1525188,
-      "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+      "bytes": 1525568,
+      "sha256": "000690b3a45203423af37f6ed9622b43bf3125401e88ffb52f3de8efaff97d73"
     }
   ]
 }

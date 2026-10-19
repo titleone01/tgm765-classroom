@@ -10,13 +10,13 @@
       "label": "TGM765S-ET",
       "model": {
         "full": "tgm765s-et-full.glb",
-        "compressed": "tgm765s-et-b2a4f0631b66.glb.gz",
-        "fallback": "tgm765s-et-b2a4f0631b66.glb",
-        "compressedBytes": 628553,
-        "decodedBytes": 1522104,
+        "compressed": "tgm765s-et-676e43915325.glb.gz",
+        "fallback": "tgm765s-et-676e43915325.glb",
+        "compressedBytes": 628710,
+        "decodedBytes": 1522480,
         "triangles": 49368,
-        "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4",
-        "gzipSha256": "8c2618d623d8d8733d6b895d778d2697cc7f778c008bb86c9698e34fe44561d2"
+        "sha256": "676e439153250088195ca7c20371d8ba25b4a4103c5079de24a3736c3779a270",
+        "gzipSha256": "d7472a6cde53c0e3c8d8ed22a7c4396d0a4e70d0d640b8b94a4438083e02f7cf"
       },
       "topicCount": 12,
       "motions": [
@@ -37,13 +37,13 @@
       "label": "TGM765L-ET",
       "model": {
         "full": "tgm765l-et-full.glb",
-        "compressed": "tgm765l-et-a4132d0aaa83.glb.gz",
-        "fallback": "tgm765l-et-a4132d0aaa83.glb",
-        "compressedBytes": 630574,
-        "decodedBytes": 1525188,
+        "compressed": "tgm765l-et-000690b3a452.glb.gz",
+        "fallback": "tgm765l-et-000690b3a452.glb",
+        "compressedBytes": 630717,
+        "decodedBytes": 1525568,
         "triangles": 49328,
-        "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d",
-        "gzipSha256": "b92c748105974a276e22f721b0537c8d797f4e3b92e33705d4a1945c54897343"
+        "sha256": "000690b3a45203423af37f6ed9622b43bf3125401e88ffb52f3de8efaff97d73",
+        "gzipSha256": "6720557b69f20580cfe5339fba717e14595e5d5ee984e77363623966d0c357d5"
       },
       "topicCount": 12,
       "motions": [
@@ -68,48 +68,48 @@
       "offlineFile": "工业网络与组态技术_tgm765_硬件认识_离线.html",
       "offline": {
         "file": "工业网络与组态技术_tgm765_硬件认识_离线.html",
-        "bytes": 4875682,
-        "sha256": "258e3f945a80d90572305e3c3dc52586f9ae8bf81c57136a7510e652ff445dd9",
+        "bytes": 4876694,
+        "sha256": "0a7fa9387a618cabf2871d164a473613084cfb6e2adafcb9a51e83070e1145c6",
         "embeddedModels": [
           {
             "id": "tgm765s-et",
-            "bytes": 1522104,
-            "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+            "bytes": 1522480,
+            "sha256": "676e439153250088195ca7c20371d8ba25b4a4103c5079de24a3736c3779a270"
           },
           {
             "id": "tgm765l-et",
-            "bytes": 1525188,
-            "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+            "bytes": 1525568,
+            "sha256": "000690b3a45203423af37f6ed9622b43bf3125401e88ffb52f3de8efaff97d73"
           }
         ]
       },
-      "bundle": "app-c00812b02698.js",
-      "htmlSha256": "a8d9b45c676aecfecf68b6f1172576a2487379b92ad8c45fe7f503c0c0968f90",
-      "bundleSha256": "c00812b026981db1904952826b4f7de31069e66a97e3317ae111d17157b2aed4",
+      "bundle": "app-301af280e01f.js",
+      "htmlSha256": "08640e0f9664b48bdd61615ee085748d86eb7a3580a5df8864ef4d6e44f41c27",
+      "bundleSha256": "301af280e01f3789b8b6376bddc35902a752c1ad4e1c6f3113df1bdf37cf26c8",
       "models": [
         {
           "variant": "tgm765s-et",
-          "file": "tgm765s-et-b2a4f0631b66.glb.gz",
-          "bytes": 628553,
-          "sha256": "8c2618d623d8d8733d6b895d778d2697cc7f778c008bb86c9698e34fe44561d2"
+          "file": "tgm765s-et-676e43915325.glb.gz",
+          "bytes": 628710,
+          "sha256": "d7472a6cde53c0e3c8d8ed22a7c4396d0a4e70d0d640b8b94a4438083e02f7cf"
         },
         {
           "variant": "tgm765s-et",
-          "file": "tgm765s-et-b2a4f0631b66.glb",
-          "bytes": 1522104,
-          "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+          "file": "tgm765s-et-676e43915325.glb",
+          "bytes": 1522480,
+          "sha256": "676e439153250088195ca7c20371d8ba25b4a4103c5079de24a3736c3779a270"
         },
         {
           "variant": "tgm765l-et",
-          "file": "tgm765l-et-a4132d0aaa83.glb.gz",
-          "bytes": 630574,
-          "sha256": "b92c748105974a276e22f721b0537c8d797f4e3b92e33705d4a1945c54897343"
+          "file": "tgm765l-et-000690b3a452.glb.gz",
+          "bytes": 630717,
+          "sha256": "6720557b69f20580cfe5339fba717e14595e5d5ee984e77363623966d0c357d5"
         },
         {
           "variant": "tgm765l-et",
-          "file": "tgm765l-et-a4132d0aaa83.glb",
-          "bytes": 1525188,
-          "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+          "file": "tgm765l-et-000690b3a452.glb",
+          "bytes": 1525568,
+          "sha256": "000690b3a45203423af37f6ed9622b43bf3125401e88ffb52f3de8efaff97d73"
         }
       ],
       "embed": "<iframe src=\"https://titleone01.github.io/tgm765-classroom/industrial-network/\" title=\"工业网络与组态技术 · TGM765S-ET / TGM765L-ET硬件认识\" width=\"100%\" height=\"1900\" style=\"border:0\" loading=\"lazy\" allow=\"fullscreen\"></iframe>"
@@ -121,48 +121,48 @@
       "offlineFile": "PLC应用技术_tgm765_硬件认识_离线.html",
       "offline": {
         "file": "PLC应用技术_tgm765_硬件认识_离线.html",
-        "bytes": 4875658,
-        "sha256": "6615719684e590b38965885c7a4655ce6cba69fcd534873e8e29aafac14a19d6",
+        "bytes": 4876670,
+        "sha256": "b5f94b0538b80b22e9dc5c9673a2a01c6adc478bdbb06905c5805fce349b4d45",
         "embeddedModels": [
           {
             "id": "tgm765s-et",
-            "bytes": 1522104,
-            "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+            "bytes": 1522480,
+            "sha256": "676e439153250088195ca7c20371d8ba25b4a4103c5079de24a3736c3779a270"
           },
           {
             "id": "tgm765l-et",
-            "bytes": 1525188,
-            "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+            "bytes": 1525568,
+            "sha256": "000690b3a45203423af37f6ed9622b43bf3125401e88ffb52f3de8efaff97d73"
           }
         ]
       },
-      "bundle": "app-c00812b02698.js",
-      "htmlSha256": "aace822dccd100de4b567da01be94cecfc3132baf8b387d15f0ad7f924b24f3c",
-      "bundleSha256": "c00812b026981db1904952826b4f7de31069e66a97e3317ae111d17157b2aed4",
+      "bundle": "app-301af280e01f.js",
+      "htmlSha256": "6ccd45f401a47e9b49be8596e5bce1592a51f2ba0cebfd84ad469ddb19c4f5b1",
+      "bundleSha256": "301af280e01f3789b8b6376bddc35902a752c1ad4e1c6f3113df1bdf37cf26c8",
       "models": [
         {
           "variant": "tgm765s-et",
-          "file": "tgm765s-et-b2a4f0631b66.glb.gz",
-          "bytes": 628553,
-          "sha256": "8c2618d623d8d8733d6b895d778d2697cc7f778c008bb86c9698e34fe44561d2"
+          "file": "tgm765s-et-676e43915325.glb.gz",
+          "bytes": 628710,
+          "sha256": "d7472a6cde53c0e3c8d8ed22a7c4396d0a4e70d0d640b8b94a4438083e02f7cf"
         },
         {
           "variant": "tgm765s-et",
-          "file": "tgm765s-et-b2a4f0631b66.glb",
-          "bytes": 1522104,
-          "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4"
+          "file": "tgm765s-et-676e43915325.glb",
+          "bytes": 1522480,
+          "sha256": "676e439153250088195ca7c20371d8ba25b4a4103c5079de24a3736c3779a270"
         },
         {
           "variant": "tgm765l-et",
-          "file": "tgm765l-et-a4132d0aaa83.glb.gz",
-          "bytes": 630574,
-          "sha256": "b92c748105974a276e22f721b0537c8d797f4e3b92e33705d4a1945c54897343"
+          "file": "tgm765l-et-000690b3a452.glb.gz",
+          "bytes": 630717,
+          "sha256": "6720557b69f20580cfe5339fba717e14595e5d5ee984e77363623966d0c357d5"
         },
         {
           "variant": "tgm765l-et",
-          "file": "tgm765l-et-a4132d0aaa83.glb",
-          "bytes": 1525188,
-          "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d"
+          "file": "tgm765l-et-000690b3a452.glb",
+          "bytes": 1525568,
+          "sha256": "000690b3a45203423af37f6ed9622b43bf3125401e88ffb52f3de8efaff97d73"
         }
       ],
       "embed": "<iframe src=\"https://titleone01.github.io/tgm765-classroom/plc-application/\" title=\"PLC应用技术 · TGM765S-ET / TGM765L-ET硬件认识\" width=\"100%\" height=\"1900\" style=\"border:0\" loading=\"lazy\" allow=\"fullscreen\"></iframe>"

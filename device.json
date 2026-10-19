@@ -44,13 +44,13 @@
       ],
       "model": {
         "full": "tgm765s-et-full.glb",
-        "compressed": "tgm765s-et-b2a4f0631b66.glb.gz",
-        "fallback": "tgm765s-et-b2a4f0631b66.glb",
-        "compressedBytes": 628553,
-        "decodedBytes": 1522104,
+        "compressed": "tgm765s-et-676e43915325.glb.gz",
+        "fallback": "tgm765s-et-676e43915325.glb",
+        "compressedBytes": 628710,
+        "decodedBytes": 1522480,
         "triangles": 49368,
-        "sha256": "b2a4f0631b6631469ba08cd754f11637fa93009ce43c1c03e3a357ab57ebb8b4",
-        "gzipSha256": "8c2618d623d8d8733d6b895d778d2697cc7f778c008bb86c9698e34fe44561d2"
+        "sha256": "676e439153250088195ca7c20371d8ba25b4a4103c5079de24a3736c3779a270",
+        "gzipSha256": "d7472a6cde53c0e3c8d8ed22a7c4396d0a4e70d0d640b8b94a4438083e02f7cf"
       },
       "topics": [
         {
@@ -477,13 +477,13 @@
       ],
       "model": {
         "full": "tgm765l-et-full.glb",
-        "compressed": "tgm765l-et-a4132d0aaa83.glb.gz",
-        "fallback": "tgm765l-et-a4132d0aaa83.glb",
-        "compressedBytes": 630574,
-        "decodedBytes": 1525188,
+        "compressed": "tgm765l-et-000690b3a452.glb.gz",
+        "fallback": "tgm765l-et-000690b3a452.glb",
+        "compressedBytes": 630717,
+        "decodedBytes": 1525568,
         "triangles": 49328,
-        "sha256": "a4132d0aaa83ebd0caae19baac3ecf95cfb10a28b0f85ca3211c80e8ac68d79d",
-        "gzipSha256": "b92c748105974a276e22f721b0537c8d797f4e3b92e33705d4a1945c54897343"
+        "sha256": "000690b3a45203423af37f6ed9622b43bf3125401e88ffb52f3de8efaff97d73",
+        "gzipSha256": "6720557b69f20580cfe5339fba717e14595e5d5ee984e77363623966d0c357d5"
       },
       "topics": [
         {
